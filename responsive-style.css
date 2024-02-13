@@ -1,0 +1,29 @@
+/* story section */
+.story-section {
+    height: auto;
+    padding: 3 rem 0;
+}
+
+
+/* carsoual  */
+.testimonial-section .carousel-item .carsousel-caption p {
+    padding: 0;
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-item .carsousel-caption p {
+        padding: 11rem 1.5rem;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width:330px) {
+    .carousel-inner .carousel-item {
+        padding: 20rem 0;
+        font-size: 12px;
+    }
+}
