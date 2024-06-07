@@ -423,13 +423,108 @@ p span {
     /* background-color: white; */
 }
 
-footer{
-    margin: 100px 0px;
+footer {
+    margin-top: 50px;
+    padding: 100px 0px;
+    background-color: var(--primary-color);
+}
+
+.footer-logo {
+    filter: drop-shadow(30px 10px 4px #4444dd)
 }
 
 ul li {
     list-style: none;
 }
-ul li a{
+
+ul li a {
     color: black;
+}
+
+/* regestation form */
+form {
+    width: 100%;
+}
+
+.Reg-sec {
+    border: 20px solid var(--primary-color);
+    padding: 20px 20px;
+}
+
+.Reg-sec .row {
+    padding: 0px;
+}
+
+
+.booking-table input {
+    width: 99%;
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-indent: 20px;
+    margin: 0 auto;
+}
+
+.booking-table select {
+    width: 99%;
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-indent: 20px;
+}
+
+.booking-table .input-email {
+    width: 49%;
+}
+
+.booking-table .input-number {
+    width: 49%;
+}
+
+.booking-table .input-date {
+    width: 49%;
+}
+
+.booking-table .input-time {
+    width: 49%;
+}
+
+.people-detail button {
+    width: 8%;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 0px auto;
+    color: var(--primary-color);
+    outline: none;
+    border: 1px solid #a82c48;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.people-detail button:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.submit-btn button {
+    width: 100%;
+    padding: 10px 0px;
+    text-indent: 20px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0px;
+}
+
+.submit-btn button:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.submit-btn a {
+    text-decoration: none;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.submit-btn a:hover {
+    color: var(--primary-color);
 }
