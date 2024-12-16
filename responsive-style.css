@@ -27,3 +27,36 @@
         font-size: 12px;
     }
 }
+
+/* custome responsive css */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .booking-table .input-email {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .booking-table .input-number {
+        width: 100%;
+    }
+
+    .booking-table .input-date {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .booking-table .input-time {
+        width: 100%;
+    }
+
+    .people-detail button {
+        width: 18%;
+        padding: 15px 10px;
+        text-align: center;
+        margin: 10px auto;
+        color: var(--primary-color);
+        outline: none;
+        border: 1px solid #a82c48;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+}

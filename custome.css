@@ -56,15 +56,22 @@ body {
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-    width: 0.625rem;
+    width: 10px;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
-    background: var(--white-color);
+    background: #f1f1f1;
 }
 
-::-webkit-slider-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: var(--primary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 
@@ -396,6 +403,7 @@ img {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    padding: 80px 0px;
 }
 
 .details {
@@ -425,20 +433,16 @@ p span {
 
 footer {
     margin-top: 50px;
-    padding: 100px 0px;
+    padding: 50px 0px;
     background-color: var(--primary-color);
 }
 
 .footer-logo {
-    filter: drop-shadow(30px 10px 4px #4444dd)
+    filter: drop-shadow(10px 10px 14px #ffffff)
 }
 
 ul li {
     list-style: none;
-}
-
-ul li a {
-    color: black;
 }
 
 /* regestation form */
@@ -527,4 +531,58 @@ form {
 
 .submit-btn a:hover {
     color: var(--primary-color);
+}
+
+.footer-menu {
+    width: 100%;
+    display: flex;
+}
+
+.footer-menu li {
+    margin: 20px auto;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+.footer-menu li a {
+    color: var(--primary-color);
+}
+
+.footer-pages {
+    width: 100%;
+}
+
+.footer-pages li {
+    margin: 20px auto;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+.footer-pages li a {
+    color: var(--primary-color);
+}
+
+.footer-icon ul {
+    width: 100%;
+    display: flex;
+
+}
+
+.footer-icon ul li {
+    width: 50px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    background-color: var(--white-color);
+}
+
+.footer-icon ul li i{
+    border-radius: 100%;
 }
